@@ -3,7 +3,7 @@ import Accordion from './components/Accordion/Accordion';
 
 function App() {
 
-    const items = [{
+     const items = [{
         id: 1,
         title: 'Item 1',
         content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam venenatis sapien eu diam finibus, id tristique tellus iaculis. Pellentesque leo metus, posuere id interdum sed, varius gravida felis. Curabitur porttitor rutrum lectus, in vestibulum dui tempor in. Nullam vel dapibus libero. Donec consequat, massa sit amet ornare posuere, massa mauris pellentesque est, vitae bibendum dolor tellus at velit. Pellentesque lacinia magna elit, a mollis lorem aliquet at. Integer quis feugiat leo. Curabitur tempor nisi non viverra porttitor. Praesent pharetra est nulla, eu aliquam ligula lacinia vel. Mauris dictum, dolor id faucibus varius, lectus diam vulputate magna, ut molestie nisi est eget ex. Suspendisse potenti. Donec sollicitudin massa orci, ut feugiat elit convallis aliquam. Donec a accumsan diam.'
@@ -32,7 +32,9 @@ function App() {
                 <p>É essencial que quando um Accordion abra, outro feche. A ação de abrir e fechar o Accordion deverá ser
                     feita ao clicar no seu <code>header</code>.</p>
             </div>
-            <Accordion items = {items} />
+            <Accordion 
+            items = {items} 
+            />
         </div>
     );
 }
